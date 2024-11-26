@@ -1,0 +1,14 @@
+{
+    "compilerOptions": {
+      "strict": true
+    },
+    "tasks": {
+      "start": "deno run --allow-net --allow-env src/main.ts"
+    },
+    "imports": {
+    "express": "npm:express@^4.18.2",
+    "mongodb": "npm:mongodb@^5.8.0"
+    },  
+    "vendor": true
+}
+  
